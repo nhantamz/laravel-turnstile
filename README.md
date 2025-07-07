@@ -27,7 +27,7 @@ Step 2: The class alias to the aliases array :
 'Turnstile' => Nhantamz\Turnstile\Facades\Turnstile::class,
 ```
 
-Step 3: Publish the config file (Turnstile.php)
+Step 3: Publish the config file (turnstile.php)
 
 ```Shell
 php artisan vendor:publish --provider="Nhantamz\Turnstile\TurnstileServiceProvider"
